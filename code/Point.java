@@ -1,5 +1,3 @@
-package routingprogram.model;
-
 import java.io.*;
 import java.util.*;
 
@@ -16,11 +14,11 @@ public class Point
       altitude = alt;
    }
 
-   public void setLat(Double lat) throws SetLatException
+   public void setLat(Double lat) throws IllegalArgumentException
    {
       if(lat < -90.0 || lat > 90.0)
       {
-         throw new SetLatException("Out of latitude range", e);
+         throw new IllegalArgumentException("Out of latitude range");
       }
       else
       {
@@ -28,11 +26,11 @@ public class Point
       }
    }
 
-   public void setLong(Double longit) throws SetLongException
+   public void setLong(Double longit) throws IllegalArgumentException
    {
       if(longit < -180.0 || longit > 180.0)
       {
-         throw new SetLongtException("Out of longitude range", e);
+         throw new IllegalArgumentException("Out of longitude range");
       }
       else
       {
