@@ -1,0 +1,19 @@
+theClimb [description]
+-31.94,115.75,47.1,[description]
+-31.94,115.75,55.3,[description]
+-31.94,115.75,71.0,[description]
+-31.93,115.75,108.0,[description]
+-31.93,115.75,131.9
+mainRoute [description]
+-31.96,115.80,63.0,[description]
+-31.95,115.78,45.3,[description]
+-31.95,115.77,44.8,*theStroll
+-31.94,115.75,47.1,[description]
+-31.93,115.72,40.1,[description]
+-31.94,115.75,47.1,*theClimb
+-31.93,115.75,131.9,[description]
+-31.92,115.74,128.1
+theStroll [description]
+-31.95,115.77,44.8,[description]
+-31.93,115.76,43.0,[description]
+-31.94,115.75,47.1

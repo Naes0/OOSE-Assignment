@@ -1,0 +1,2 @@
+Note: combine observer notify with set state to controller
+      the state of the user.
